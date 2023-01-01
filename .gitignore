@@ -1,0 +1,38 @@
+### Directories ###
+bin/
+gen/
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+.sonar/
+
+### Files ###
+*.class
+*.jar
+*.war
+*.ear
+*.db
+Thumbs.db
+._*
+.DS_Store
+HELP.md
+
+### IntelliJ IDEA Directories ###
+.idea/
+/out/
+build/
+
+### IntelliJ IDEA Files ###
+*.idea
+*.iml
+*.iws
+*.ipr
+.idea/.gitignore
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/jarRepositories.xml
+.idea/jpa-buddy.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/workspace.xml
+!.mvn/wrapper/maven-wrapper.jar
